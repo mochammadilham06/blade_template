@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>@yield('title')</title>
+    @include('includes.head')
+</head>
+
+<body id="content">
+    <header>
+        @include('includes.header')
+
+    </header>
+
+    <div class="container">
+        @yield('content')
+
+    </div>
+
+    @include('includes.footer')
+
+</body>
+
+</html>
